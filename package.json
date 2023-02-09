@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome test.tc.ts",
+    "test": "testcafe chrome --experimental-proxyless test.tc.ts",
     "serve": "serve public"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "serve": "^14.0.1",
-    "testcafe": "^2.0.1"
+    "testcafe": "^2.3.0"
   }
 }
